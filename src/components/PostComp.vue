@@ -1,4 +1,3 @@
 <script></script>
-<template>
-</template>
+<template>jjsx</template>
 <style></style>
