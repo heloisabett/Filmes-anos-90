@@ -1,6 +1,6 @@
 <script setup>
-  import HeaderComp from "@/components/HeaderComp.vue";
-  import CarroselComp from "@/components/CarroselComp.vue";
+import HeaderComp from "@/components/HeaderComp.vue";
+import CarroselComp from "@/components/CarroselComp.vue";
 </script>
 <template>
   <header>
@@ -8,6 +8,7 @@
   </header>
   <main>
     <CarroselComp />
+    <RouterView />
   </main>
 </template>
 

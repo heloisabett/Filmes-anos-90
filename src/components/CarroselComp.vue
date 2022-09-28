@@ -1,14 +1,15 @@
 <template>
-  <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+  <div
+    id="carouselExampleInterval"
+    class="carousel slide"
+    data-bs-ride="carousel"
+  >
     <div class="carousel-inner">
-      <div class="carousel-item active" data-bs-interval="1000">
-        <img src="@/assets/logo.svg" class="d-block w-50" alt="..." />
+      <div class="carousel-item active" data-bs-interval="3000">
+        <img src="imagem1.jpeg" class="w-50" alt="..." />
       </div>
-      <div class="carousel-item" data-bs-interval="1000">
-        <img src="@/assets/logo.svg" class="d-block w-50" alt="..." />
-      </div>
-      <div class="carousel-item" data-bs-interval="1000">
-        <img src="@/assets/logo.svg" class="d-block w-50" alt="..." />
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="img4.jpeg" class="w-50" alt="..." />
       </div>
     </div>
     <button
@@ -31,3 +32,9 @@
     </button>
   </div>
 </template>
+<style>
+.carouselExampleInterval {
+  width: 100%;
+  height: 800px;
+}
+</style>
