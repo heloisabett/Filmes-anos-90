@@ -3,16 +3,16 @@ import PostComp from "../components/PostComp.vue";
 </script>
 <template>
   <h1>Ação</h1>
+  <br />
+  <br />
   <PostComp />
 </template>
-<style>
+<style scoped>
 h1 {
-  color: rgb(62, 6, 95);
+  color: rgb(255, 0, 0);
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   padding-left: 3%;
   margin-top: 1%;
-}
-body {
-  background-color: black;
+  font-size: 2em;
 }
 </style>

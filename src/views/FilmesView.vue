@@ -1,7 +1,7 @@
 <script setup>
-import PostComp from "../components/PostComp.vue";
+import CarroselComp from "@/components/CarroselComp.vue";
 </script>
 <template>
-  <PostComp />
+  <CarroselComp />
 </template>
 <style></style>

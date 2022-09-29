@@ -1,3 +1,10 @@
 body {
   margin: 0;
+  background-color: black;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  padding-left: 5%;
 }
