@@ -8,11 +8,12 @@
 </template>
 <style scoped>
 .test {
-  width: 15%;
+  width: 10%;
   height: 45%;
   color: white;
-  margin-top: 2%;
-  margin-left: 3%;
   background: gray;
+  padding: 25px;
+  margin: 25px;
+  text-align: justify;
 }
 </style>

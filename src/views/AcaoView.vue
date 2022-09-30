@@ -6,13 +6,14 @@ import PostComp from "../components/PostComp.vue";
   <br />
   <br />
   <PostComp />
+  <PostComp />
 </template>
-<style scoped>
+<style >
 h1 {
   color: rgb(255, 0, 0);
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   padding-left: 3%;
   margin-top: 1%;
-  font-size: 2em;
+  font-size: 2.3em;
 }
 </style>
