@@ -1,6 +1,21 @@
-<script setup>
+<!-- <script setup>
 import PostComp from "../components/PostComp.vue";
-</script>
+import axios from "axios";
+export default {
+  data() {
+    return {
+      id: 28,
+      name: "Ação",
+    };
+  },
+  methods: {
+    async buscar () {
+
+
+    }
+  }
+}; -->
+<!-- </script> -->
 <template>
   <h1>Ação</h1>
   <br />
@@ -8,7 +23,7 @@ import PostComp from "../components/PostComp.vue";
   <PostComp />
   <PostComp />
 </template>
-<style >
+<style>
 h1 {
   color: rgb(255, 0, 0);
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;

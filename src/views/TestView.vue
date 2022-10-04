@@ -7,7 +7,7 @@
   </div>
 </template>
 <style scoped>
-.test {
+/* .test {
   width: 10%;
   height: 45%;
   color: white;
@@ -15,5 +15,5 @@
   padding: 25px;
   margin: 25px;
   text-align: justify;
-}
+} */
 </style>
