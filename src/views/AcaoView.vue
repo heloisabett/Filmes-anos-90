@@ -1,21 +1,20 @@
-<!-- <script setup>
+<script setup>
 import PostComp from "../components/PostComp.vue";
-import axios from "axios";
-export default {
-  data() {
-    return {
-      id: 28,
-      name: "Ação",
-    };
-  },
-  methods: {
-    async buscar () {
+// import axios from "axios";
+// export default {
+//   data() {
+//     return {
+//       id: 28,
+//       name: "Ação",
+//     };
+//   },
+//   // methods: {
+//   //   async buscar () {
 
-
-    }
-  }
-}; -->
-<!-- </script> -->
+//   //   }
+//   // }
+// };
+</script>
 <template>
   <h1>Ação</h1>
   <br />

@@ -1,3 +1,20 @@
+<script>
+import { mapStores, mapState, mapActions } from "pinia";
+import { useGenreStore } from "@/stores/genres";
+
+export default {
+  async created() {
+    await this.get_genres();
+  },
+  computed: {
+    ...mapStores(useGenreStore),
+    ...mapState(useGenreStore, ["genres"]),
+  },
+  methods: {
+    ...mapActions(useGenreStore, ["get_genres"]),
+  },
+};
+</script>
 <template>
   <div class="esquerda">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -27,10 +44,11 @@
                 Menu
               </a>
               <ul class="dropdown-menu dropdown-menu-dark">
-                <li><RouterLink to="/acao">Ação</RouterLink></li>
-                <li><RouterLink to="/comedia">Comédia</RouterLink></li>
-                <li><RouterLink to="/terror">Terror</RouterLink></li>
-                <li><RouterLink to="/romance">Romance</RouterLink></li>
+                <li v-for="genre of genres" :key="genre.id">
+                  <RouterLink to="/"
+                    >{{ genre.name }} - {{ genre.id }}</RouterLink
+                  >
+                </li>
               </ul>
             </li>
           </ul>
