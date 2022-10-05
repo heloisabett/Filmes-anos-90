@@ -24,7 +24,7 @@ import PostComp from "../components/PostComp.vue";
 </template>
 <style>
 h1 {
-  color: rgb(255, 0, 0);
+  color: rgb(99, 37, 37);
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   padding-left: 3%;
   margin-top: 1%;
